@@ -134,6 +134,7 @@ void Logic_snake() {
 
 void snake() {
     Setup_snake();
+
     
     while (!gameOver) {
         Draw_snake();
