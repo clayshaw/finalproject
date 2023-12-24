@@ -1,0 +1,6 @@
+﻿  finalproject.cpp
+C:\Users\howar\source\repos\finalproject\finalproject\snake.h(17,58): warning C4091: 'static ': 當沒有宣告變數時，忽略 'Direction' 的左方
+C:\Users\howar\source\repos\finalproject\finalproject\plane.h(23,78): warning C4091: 'static ': 當沒有宣告變數時，忽略 'Direction_Plane' 的左方
+C:\Users\howar\source\repos\finalproject\finalproject\plane.h(24,51): warning C4091: 'static ': 當沒有宣告變數時，忽略 'BulletState' 的左方
+LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/FORCE' 規格
+  finalproject.vcxproj -> C:\Users\howar\source\repos\finalproject\x64\Debug\finalproject.exe
