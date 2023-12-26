@@ -12,18 +12,18 @@ typedef struct point
 #define HEIGHT_PLANE 20
 #define ENEMY 5
 
-static bool gameOver_Plane;
-static point plane;
-static point enemy;
-static point bullet;
-static int score_Plane;
-static double enemy_speed;
-static short level;
+bool gameOver_Plane;
+point plane;
+point enemy;
+point bullet;
+int score_Plane;
+double enemy_speed;
+short level;
 
-static enum Direction_Plane { STOP_PLANE = 0, LEFT_PLANE, RIGHT_PLANE, SHUT };
-static enum BulletState { NO_BULLET, HAVE_BULLET };
-static enum Direction_Plane dir_plane;
-static enum BulletState bull;
+enum Direction_Plane { STOP_PLANE = 0, LEFT_PLANE, RIGHT_PLANE, SHUT };
+enum BulletState { NO_BULLET, HAVE_BULLET };
+enum Direction_Plane dir_plane;
+enum BulletState bull;
 
 void Plane();
 void Logic_plane();

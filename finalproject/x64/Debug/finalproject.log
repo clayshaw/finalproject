@@ -1,6 +1,31 @@
-﻿  finalproject.cpp
-C:\Users\howar\source\repos\finalproject\finalproject\snake.h(17,58): warning C4091: 'static ': 當沒有宣告變數時，忽略 'Direction' 的左方
-C:\Users\howar\source\repos\finalproject\finalproject\plane.h(23,78): warning C4091: 'static ': 當沒有宣告變數時，忽略 'Direction_Plane' 的左方
-C:\Users\howar\source\repos\finalproject\finalproject\plane.h(24,51): warning C4091: 'static ': 當沒有宣告變數時，忽略 'BulletState' 的左方
+﻿  1A2B.cpp
+C:\Users\howar\source\repos\finalproject\finalproject\1A2B.cpp(6,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
 LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/FORCE' 規格
+finalproject.obj : warning LNK4006: "int (* board)[4]" (?board@@3PAY03HA) 已經定義於 2048.obj 中，忽略第二個定義
+finalproject.obj : warning LNK4006: "int gameOver_2048" (?gameOver_2048@@3HA) 已經定義於 2048.obj 中，忽略第二個定義
+finalproject.obj : warning LNK4006: "int (* tmp)[4]" (?tmp@@3PAY03HA) 已經定義於 2048.obj 中，忽略第二個定義
+finalproject.obj : warning LNK4006: "int i" (?i@@3HA) 已經定義於 2048.obj 中，忽略第二個定義
+finalproject.obj : warning LNK4006: "int j" (?j@@3HA) 已經定義於 2048.obj 中，忽略第二個定義
+finalproject.obj : warning LNK4006: "int ctr" (?ctr@@3HA) 已經定義於 2048.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "bool gameOver_Plane" (?gameOver_Plane@@3_NA) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "struct point plane" (?plane@@3Upoint@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "struct point enemy" (?enemy@@3Upoint@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "struct point bullet" (?bullet@@3Upoint@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "int score_Plane" (?score_Plane@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "double enemy_speed" (?enemy_speed@@3NA) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "short level" (?level@@3FA) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "enum Direction_Plane dir_plane" (?dir_plane@@3W4Direction_Plane@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+plane.obj : warning LNK4006: "enum BulletState bull" (?bull@@3W4BulletState@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int gameOver" (?gameOver@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int score" (?score@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int tailLength" (?tailLength@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int * tailX" (?tailX@@3PAHA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int * tailY" (?tailY@@3PAHA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int headX" (?headX@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int headY" (?headY@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int fruitX" (?fruitX@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int fruitY" (?fruitY@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "int SPEED" (?SPEED@@3HA) 已經定義於 finalproject.obj 中，忽略第二個定義
+snake.obj : warning LNK4006: "enum Direction dir" (?dir@@3W4Direction@@A) 已經定義於 finalproject.obj 中，忽略第二個定義
+C:\Users\howar\source\repos\finalproject\x64\Debug\finalproject.exe : warning LNK4088: 由於 /FORCE 選項，所以映像已經產生，映像可能無法執行
   finalproject.vcxproj -> C:\Users\howar\source\repos\finalproject\x64\Debug\finalproject.exe

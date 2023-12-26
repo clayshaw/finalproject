@@ -27,6 +27,12 @@
     <ClCompile Include="plane.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="1A2B.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="2048.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GoMoku.h">
@@ -39,6 +45,12 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="finalproject.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1A2B.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="2048.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

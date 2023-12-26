@@ -128,12 +128,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1A2B.cpp" />
+    <ClCompile Include="2048.cpp" />
     <ClCompile Include="finalproject.cpp" />
     <ClCompile Include="GoMoku.cpp" />
     <ClCompile Include="plane.cpp" />
     <ClCompile Include="snake.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1A2B.h" />
+    <ClInclude Include="2048.h" />
     <ClInclude Include="finalproject.h" />
     <ClInclude Include="GoMoku.h" />
     <ClInclude Include="plane.h" />
